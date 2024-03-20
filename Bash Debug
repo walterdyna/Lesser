@@ -1,0 +1,12 @@
+pnpx create-svelte@latest my-app
+cd my-app
+
+# Instalação das dependências
+pnpm install tailwindcss@latest postcss@latest autoprefixer@latest
+
+npx tailwindcss init -p
+
+npm install --save-dev playwright@latest @playwright/test
+
+Comando para teste
+npx playwright test
